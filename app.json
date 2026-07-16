@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "LMCC",
+    "slug": "lmcc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "lmcc",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1B2A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.apexbyteshub.lmcc"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#0D1B2A"
+      },
+      "package": "com.apexbyteshub.lmcc",
+      "permissions": ["USE_BIOMETRIC", "USE_FINGERPRINT", "VIBRATE"]
+    },
+    "plugins": ["expo-router", "expo-secure-store"]
+  }
+}
