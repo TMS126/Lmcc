@@ -1,2 +1,0 @@
-# Lmcc
-Loan Calculatr App
